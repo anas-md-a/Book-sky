@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+
+.navbar {
+    background-color: brown;
+    color: white;
+    border-radius: 10px;
+    padding: 10px;
+    padding-left: 40px;
+}
+
+.box-container {
+    width: 30%;
+    height: 40%;
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 30px;
+    padding: 15px;
+    display: inline-block;
+
+}
+
+.box-container h3 {
+    color: brown;
+}
+
+.box-container button {
+    background-color: brown;
+    color: white;
+    margin-top: 9px;
+    margin-left: 15px;
+    width: 25%;
+    padding: 3px;
+}
+
+.box-container h5,
+p {
+    padding-top: 5px;
+}
+
+.add-btn {
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    background-color: brown;
+    color: white;
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+    font-size: 30px;
+}
+
+.pop-black {
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: absolute;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+
+.pop-form {
+    width: 40%;
+    position: absolute;
+    z-index: 2;
+    background-color: brown;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    left: 30%;
+    top: 30%;
+    color: white;
+    display: none;
+
+
+}
+
+.pop-form input,
+textarea {
+    margin-top: 10px;
+    width: 95%;
+}
+
+.pop-form button {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 45px;
+    width: 25%;
+    padding: 3px;
+    color: white;
+    background-color: black;
+}
+
+.pop-form input {
+    border: none;
+    border-bottom: 2px solid black;
+    background-color: transparent;
+    padding-top: 7px;
+
+}
+
+.pop-form input::placeholder {
+    color: black;
+}
+
+.pop-form textarea {
+    background-color: transparent;
+    border: 2px solid black;
+    margin-top: 19px;
+}
+
+.pop-form textarea::placeholder {
+    color: black;
+}
+
+.pop-form input:focus{
+    outline: none;
+}
+
+.pop-form textarea:focus{
+    outline: none;
+}
